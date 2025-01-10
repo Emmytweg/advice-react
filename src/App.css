@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
+
+body{
+  font-family: 'Manrope', sans-serif !important;
+  background-color: #202632;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+.Add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AdviceCon{
+  height: 200px;
+  width: 80%;
+  text-align: center;
+
+  
+  background-color: #313A49;
+  padding: 20px;
+  border-radius: 15px;
+  margin: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+}
+.AdviceCon img{
+  width: 100%;
+}
+.AdviceCon span{
+  color: #4EE49E;
+  font-weight: 600;
+}
+.AdviceCon p{
+  word-wrap: break-word;
+  color: #ffff;
+  font-weight: 800;
+  width: 70%;
+}
+.smallBox{
+  height: 50px;
+  width: 50px;
+  background-color: #4EE49E;
+  position: relative;
+  top: 20%;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 0 0 10px #4EE49E, 0 0 20px #4EE49E, 0 0 30px #4EE49E, 0 0 40px #4EE49E;
+}
+.smallBox  img{
+  transform: scale(.5);
+}
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .AdviceCon {
+    width: 70%;
+    gap: 0px;
+    margin-top: 50%;
+  }
+  body {
+    margin: 0;
+  }
+  .smallBox {
+    /* top: 50%; */
+    box-shadow: 0 0 10px #4EE49E, 0 0 30px #4EE49E;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and  (max-width: 768px) {
+  .AdviceCon {
+    width: 70%;
+    gap: 5px;
+    margin-top: 40%;
+  }
+  body {
+    margin: 5%;
+  }
+  .smallBox {
+    /* top: 50vh; */
+    box-shadow: 0 0 10px #4EE49E, 0 0 20px #4EE49E;
+  }
+}
