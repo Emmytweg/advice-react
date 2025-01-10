@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/advice-react/static/css/main.b02da538.css",
+    "main.js": "/advice-react/static/js/main.e532bcb6.js",
+    "static/js/462.2d47d1ca.chunk.js": "/advice-react/static/js/462.2d47d1ca.chunk.js",
+    "index.html": "/advice-react/index.html",
+    "static/media/icon-dice.svg": "/advice-react/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "/advice-react/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "main.b02da538.css.map": "/advice-react/static/css/main.b02da538.css.map",
+    "main.e532bcb6.js.map": "/advice-react/static/js/main.e532bcb6.js.map",
+    "462.2d47d1ca.chunk.js.map": "/advice-react/static/js/462.2d47d1ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b02da538.css",
+    "static/js/main.e532bcb6.js"
+  ]
+}
